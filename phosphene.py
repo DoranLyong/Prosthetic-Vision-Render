@@ -1,3 +1,4 @@
+# coding=<utf-8>
 """
 Author: DoranLyong 
 GitGub: https://github.com/DoranLyong
@@ -9,10 +10,10 @@ import numpy as np
 from scipy import signal
 
 
-imageSize = 480   # reshape to 480x480 
-pixelateSize = 32
+imageSize = 640   # reshape to 640x640
+pixelateSize = 64 # it should be a common divisor of the 'imageSize'. 
 faceSize = int(imageSize/pixelateSize)
-strength = 4
+strength = 2
 
 
 
